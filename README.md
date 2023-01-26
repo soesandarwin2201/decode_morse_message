@@ -19,32 +19,50 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
+OPTIONAL SECTIONS:
+- FAQ
+
 After you're finished please remove all the comments and instructions!
 -->
 
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 decode\_morse\_message ](#-decode_morse_message-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Setup](#setup)
-    - [Navigate to the folder](#navigate-to-the-folder)
-  - [👥 Authors ](#-authors-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 decode_morse_message <a name="about-project"></a>
+# 📖 [decode_morse_message] <a name="about-project"></a>
 
-
+> Describe your project in 1 or 2 sentences.
 
 **decode_morse_message** is a simple ruby project that was created to translate the morse code.
 
@@ -52,7 +70,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Ruby
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -77,17 +95,37 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
+### Key Features <a name="key-features"></a>
 
+> Describe between 1-3 key features of the application.
+
+- **You can convert a single morse-code letter to its equivalent alphabet**
+- **You can convert a single morse word to its equivalent word with the letters of the alphabet**
+- **You can convert a sentence from morse code to an English sentence**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
+
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
 
 <!--
 Example command:
@@ -98,14 +136,46 @@ Example command:
  -->
 
 ### Setup
-Clone the repository
-git clone  https://github.com/soesandarwin2201/decode_morse_message
 
-### Navigate to the folder
+Clone this repository to your desired folder:
 
-cd decode_morse_message
+<!--
+Example commands:
 
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
 
 <!--
 Example command:
@@ -115,6 +185,9 @@ Example command:
 ```
 --->
 
+### Deployment
+
+You can deploy this project using:
 
 <!--
 Example:
@@ -130,21 +203,31 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Linus Shaddai
+> Mention all of the collaborators of this project.
 
-GitHub: @linushaddai99
-Twitter: @linushaddai99
-LinkedIn: @linushaddai99
-
-
-👤 Soe Sandar Win
+👤 **Soe Sander Win**
 
 - GitHub: [@soesandarwin2201](https://github.com/soesandarwin2201)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
 
+👤 **Linus Shaddai**
 
+- GitHub: [@linushaddai99](https://github.com/@linushaddai99)
+- Twitter: [@ShaddaiLinus](https://twitter.com/@ShaddaiLinus)
+- LinkedIn: [linusshaddai](https://www.linkedin.com/in/linusshaddai/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **We will enable users to be able to convert a whole article of morse code to understandable english**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -159,7 +242,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a ⭐.
+> Write a message to encourage readers to support your project
+
+If you like this project please give us a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,12 +252,14 @@ If you like this project give a ⭐.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+> Give credit to everyone who inspired your codebase.
 
-I would like to thank Microverse.
+I would like to thank Microverse for inspiring this project idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
